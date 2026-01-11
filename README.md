@@ -125,11 +125,11 @@ python ecommerce.py
 
 ### 1. Products Table in MySQL
 
-![Products Table](link-to-your-screenshot)
+![Products Table](https://raw.githubusercontent.com/Pooja0629/CLI-ECommerce-Python/d2342bc822c33b7fb5a9bec0a5365917bb96555d/Product%20Table.png)
 
 ### 2. Orders Table in MySQL
 
-![Orders Table](link-to-your-screenshot)
+![Orders Table](https://raw.githubusercontent.com/Pooja0629/CLI-ECommerce-Python/d2342bc822c33b7fb5a9bec0a5365917bb96555d/Order%20Table.png)
 
 ### 3. Python CLI: Admin Menu
 
