@@ -107,16 +107,6 @@ CREATE TABLE orders (
     quantity INT,
     total_price INT
 );
-```
-
-* Update Python script with credentials:
-
-```python
-user="root"
-password="pooja2906"
-database="ecommerce_db"
-```
-
 ---
 
 ## **Running the Project**
@@ -125,7 +115,7 @@ database="ecommerce_db"
 python ecommerce.py
 ```
 
-* **Admin Login:** Password `Zomato`
+* **Admin Login:** Password `*****`
 * **Customer Access:** No login required
 * Navigate menus to perform operations.
 
