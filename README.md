@@ -1,8 +1,3 @@
-Absolutely! I can craft a **professional, structured README** for your **Python + SQL E-Commerce project** in the same style as the `Smart Procure` README you shared. I’ll keep it **medium-length, resume-ready**, and include placeholders for screenshots.
-
-Here’s your polished README:
-
----
 
 # **E-Shop – Python + MySQL E-Commerce Management System**
 
