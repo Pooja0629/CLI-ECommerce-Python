@@ -133,7 +133,7 @@ python ecommerce.py
 
 ### 3. Python CLI: Admin Menu
 
-![Admin Menu]([Admin Menu.png](https://github.com/Pooja0629/CLI-ECommerce-Python/blob/d2342bc822c33b7fb5a9bec0a5365917bb96555d/Admin%20Menu.png))
+![Admin Menu](https://raw.githubusercontent.com/Pooja0629/CLI-ECommerce-Python/d2342bc822c33b7fb5a9bec0a5365917bb96555d/Admin%20Menu.png)
 
 ---
 
