@@ -167,7 +167,7 @@ GitHub: [Pooja0629](https://github.com/Pooja0629)
 
 ## **License**
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
