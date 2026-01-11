@@ -1,15 +1,13 @@
 import mysql.connector as sql
 
-# ---------- DATABASE CONNECTION ----------
 def db_connect():
     return sql.connect(
         host="localhost",
         user="root",
-        password="pooja2906",   # your password
+        password="Admin",  
         database="ecommerce_db"
     )
 
-# ---------- ADMIN FUNCTIONS ----------
 def add_product():
     db = db_connect()
     cur = db.cursor()
@@ -23,7 +21,7 @@ def add_product():
         (name, price, stock)
     )
     db.commit()
-    print("✅ Product added successfully")
+    print(" Product added successfully")
 
 def update_product():
     db = db_connect()
@@ -38,7 +36,7 @@ def update_product():
         (new_price, new_stock, pid)
     )
     db.commit()
-    print("✅ Product updated successfully")
+    print(" Product updated successfully")
 
 def delete_product():
     db = db_connect()
@@ -47,7 +45,7 @@ def delete_product():
     pid = int(input("Enter product ID to delete: "))
     cur.execute("DELETE FROM products WHERE product_id=%s", (pid,))
     db.commit()
-    print("✅ Product deleted successfully")
+    print(" Product deleted successfully")
 
 def view_products():
     db = db_connect()
@@ -60,7 +58,6 @@ def view_products():
     for p in data:
         print(f"ID:{p[0]}  Name:{p[1]}  Price:{p[2]}  Stock:{p[3]}")
 
-# ---------- CUSTOMER FUNCTIONS ----------
 def place_order():
     db = db_connect()
     cur = db.cursor()
@@ -73,13 +70,13 @@ def place_order():
     product = cur.fetchone()
 
     if product is None:
-        print("❌ Product not found")
+        print(" Product not found")
         return
 
     name, price, stock = product
 
     if qty > stock:
-        print("❌ Not enough stock")
+        print(" Not enough stock")
         return
 
     total = price * qty
@@ -95,7 +92,7 @@ def place_order():
     )
 
     db.commit()
-    print(f"✅ Order placed! Total amount: ₹{total}")
+    print(f" Order placed! Total amount: ₹{total}")
 
 def view_orders():
     db = db_connect()
@@ -108,7 +105,6 @@ def view_orders():
     for o in data:
         print(f"OrderID:{o[0]} Product:{o[1]} Qty:{o[2]} Total:{o[3]}")
 
-# ---------- ADMIN MENU ----------
 def admin_menu():
     while True:
         print("\n--- ADMIN MENU ---")
@@ -131,7 +127,6 @@ def admin_menu():
         elif ch == 5:
             break
 
-# ---------- CUSTOMER MENU ----------
 def customer_menu():
     while True:
         print("\n--- CUSTOMER MENU ---")
@@ -151,7 +146,6 @@ def customer_menu():
         elif ch == 4:
             break
 
-# ---------- MAIN ----------
 def main():
     while True:
         print("\n====== E-COMMERCE SYSTEM ======")
@@ -166,11 +160,12 @@ def main():
             if pwd == "Zomato":
                 admin_menu()
             else:
-                print("❌ Wrong password")
+                print(" Wrong password")
         elif opt == 2:
             customer_menu()
         elif opt == 3:
-            print("Thank you 🙌")
+            print("Thank you ")
             break
 
 main()
+
