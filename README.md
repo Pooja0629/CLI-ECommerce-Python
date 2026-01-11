@@ -160,6 +160,7 @@ python ecommerce.py
 
 **Pooja S**
 Email: [poojashree2266@gmail.com](mailto:poojashree2266@gmail.com)
+
 GitHub: [Pooja0629](https://github.com/Pooja0629)
 
 ---
@@ -178,6 +179,5 @@ This project is licensed under the MIT License.
 
 ---
 
-> *“E-Shop demonstrates Python + SQL integration for managing e-commerce inventory, orders, and customer interactions with persistent storage and real-time updates.”*
+“E-Shop demonstrates Python + SQL integration for managing e-commerce inventory, orders, and customer interactions with persistent storage and real-time updates.”
 
-?
