@@ -143,15 +143,7 @@ python ecommerce.py
 
 ### 3. Python CLI: Admin Menu
 
-![Admin Menu](link-to-your-screenshot)
-
-### 4. Python CLI: Customer Menu
-
-![Customer Menu](link-to-your-screenshot)
-
-### 5. Placing an Order
-
-![Order Placed](link-to-your-screenshot)
+![Admin Menu](Admin Menu.png)
 
 ---
 
